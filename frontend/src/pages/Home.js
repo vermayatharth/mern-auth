@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://mern-auth-px6yghxrp-vermayatharths-projects.vercel.app/products";
+            const url = "https://mern-auth-px6yghxrp-vermayatharths-projects.vercel.app/auth/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
